@@ -1,5 +1,26 @@
 # "If macroman is so great, why isn't there a macroman 2?"
 
+React:
+```
+yarn install
+yarn start
+```
+
+Flask:
+
+create `settings.py` in `api` folder with the following:
+```
+DB_URI = <insert db uri string here>
+```
+then:
+```
+cd api
+python3 -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+flask run
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
